@@ -73,10 +73,8 @@ def select_op(choice):
     else:
         print("Unrecognized operation")
 
-#End the select_op(choice) function here
-#-------------------------------------
-#This is the main loop. It covers Task 1 (Section 1)
-#YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE
+#End select_op(choice) function here
+#main loop. covers Task 1 (Section 1)
 while True:
     print("Select operation.")
     print("1.Add      : + ")
@@ -96,3 +94,4 @@ while True:
         #program ends here
         print("Done. Terminating")
         exit()
+
