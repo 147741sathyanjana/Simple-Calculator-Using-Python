@@ -25,10 +25,8 @@ def power(a,b):
 def remainder(a,b):
     rem = a % b
     return f"{a} % {b} = {rem}"
+# start point of select_op(choice) function
 
-#-------------------------------------
-#TODO: Write the select_op(choice) function here
-#This function sould cover Task 1 (Section 2) and Task 3
 def select_op(choice):
     symbols = {"+", "-", "*", "/", "^", "%", "#", "$"}
     if choice in symbols:
@@ -94,4 +92,5 @@ while True:
         #program ends here
         print("Done. Terminating")
         exit()
+
 
