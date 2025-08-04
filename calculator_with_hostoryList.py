@@ -115,4 +115,5 @@ while True:
     print(choice)
     if select_op(choice) == -1:
         print("Done. Terminating")
+        print()
         break
